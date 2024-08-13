@@ -1,0 +1,7 @@
+setting Settings~
+home Home~
+ride Ole Ride~
+xtra Ole Extra~
+myrides My Rides~
+mylistings My Listings~
+notification Notification~

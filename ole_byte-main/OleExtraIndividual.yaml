@@ -1,0 +1,411 @@
+- View:
+    style:
+      backgroundColor: lightgrey
+      width: 310
+      height: 500
+      borderLeftWidth: thin
+      borderRightWidth: thin
+      borderBottomWidth: thin
+      borderTopWidth: thin
+ 
+     
+    children:
+         
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 253
+               left: 9
+               fontSize: 13
+               fontWeight: bold
+             
+             index: {_ProductName}
+ 
+ 
+ 
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 280
+               left: 40
+               fontSize: 13
+               fontWeight: bold
+             
+             index: {_Price}
+ 
+ 
+ 
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 320
+               left: 20
+               fontSize: 13
+               fontWeight: bold
+             
+             index: {_Description}
+ 
+ 
+         - Button:
+             style:
+               width: 200
+               height: 40
+               right: -50
+               top: 5
+               borderWidth: 2
+               backgroundColor: lightblue
+             on_touch:
+               backgroundColor: red
+         
+     
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 07
+               right:
+               fontSize: 24
+               fontWeight: bold
+             
+             index: {OleExtra}
+ 
+ 
+ 
+         - Button:
+             style:
+             
+               width: 100
+               height: 30
+               right: -10
+               top: 20
+               borderWidth: 2
+               backgroundColor: lightblue
+             on_touch:
+               backgroundColor: blue
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 59
+               left: 17
+               fontSize: 20
+               fontWeight: bold
+             
+             index: {Sorting}
+ 
+         - Button:
+             style:
+               
+               width: 100
+               height: 30
+               right: -190
+               top: -10
+               borderWidth: 2
+               backgroundColor: lightblue
+             on_touch:
+               backgroundColor: blue
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 59
+               right: 40
+               fontSize: 20
+               fontWeight: bold
+             
+             index: {Filter}
+ 
+ 
+         - Button:
+             style:
+               position: absolute
+               alignSelf: flex-end
+               width: 50
+               height: 20
+               borderWidth: 2
+               backgroundColor: green
+             on_touch:
+               backgroundColor: blue
+               
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top:
+               right: 0
+               fontSize: 10
+               fontWeight: bold
+             
+             index: {NewEntry}
+ 
+ 
+         - View:
+             style:
+               backgroundColor: pink
+               width: 260
+               height: 140
+               top: 10
+               right: -20
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+           children:
+ 
+                 
+         - Image:
+                 source: https://assets.rbl.ms/20897393/origin.jpg
+                 style:
+                   alignSelf: flex-start
+                   width: 150
+                   height: 140
+                   borderWidth: 1
+                   top: -130
+                   right: -20
+         - Button:
+             id: button_1
+             style:
+               width: 100
+               height: 25
+               right: -180
+               top: -160
+               borderWidth: 2
+               backgroundColor: lightgreen
+             on_touch:
+               backgroundColor: blue
+         
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 220
+               right: 90
+               fontSize: 18
+               fontWeight: bold
+             
+             index: {Like}
+ 
+ 
+                 
+         - Image:
+                 source: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png
+                 style:
+                   alignSelf: flex-start
+                   width: 0
+                   height: 20
+                   borderWidth:
+                   top: -183
+                   right: -255
+ 
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 220
+               right: 55
+               fontSize: 15
+               fontWeight: bold
+             
+             index: {LikeNum}
+ 
+ 
+       
+           
+         - View:
+             style:
+               backgroundColor: yellow
+               width: 180
+               height: 25
+               top: -173
+               right: -100
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+         
+         
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 255
+               right: 100
+               fontSize: 15
+               fontWeight: normal
+             
+             index: {ProductName}
+ 
+           
+         - View:
+             style:
+               backgroundColor: yellow
+               width: 180
+               height: 25
+               top: -34.5%
+               right: -100
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+ 
+         
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 278
+               right: 130
+               fontSize: 15
+               fontWeight: normal
+             
+             index: {Price}
+ 
+ 
+
+         - View:
+             style:
+               backgroundColor: yellow
+               width: 180
+               height: 80
+               top: -33%
+               right: -100
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+ 
+       
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 315
+               left: 110
+               fontSize: 12
+               fontWeight: normal
+             
+             index: {Description}
+         
+         
+         - Button:
+             style:
+               width: 75
+               height: 35
+               right:
+               top: -20%
+               borderWidth: 2
+               backgroundColor: yellow
+             on_touch:
+               backgroundColor: blue
+         
+         
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 460
+               left: 8
+               fontSize: 12
+               fontWeight: bold
+             
+             index: {Home}    
+ 
+         
+         
+         - Button:
+             style:
+               width: 75
+               height: 35
+               right: -78
+               top: -27%
+               borderWidth: 2
+               backgroundColor: yellow
+             on_touch:
+               backgroundColor: blue
+         
+         
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 460
+               left: 82
+               fontSize: 12
+               fontWeight: bold
+             
+             index: {OleExtra}  
+         
+         
+         - Button:
+             style:
+               width: 75
+               height: 35
+               right: -156
+               top: -34%
+               borderWidth: 2
+               backgroundColor: yellow
+             on_touch:
+               backgroundColor: blue
+         
+         
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 460
+               left: 160
+               fontSize: 12
+               fontWeight: bold
+             
+             index: {OleRide}
+         
+         
+         - Button:
+             style:
+               width: 75
+               height: 35
+               right: -232
+               top: -41%
+               borderWidth: 2
+               backgroundColor: yellow
+             on_touch:
+               backgroundColor: blue
+         
+         
+       
+           children:
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 460
+               left: 235
+               fontSize: 12
+               fontWeight: bold
+             
+             index: {Notifications}  

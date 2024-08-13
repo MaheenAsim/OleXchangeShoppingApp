@@ -1,0 +1,102 @@
+- View:
+    style:
+      backgroundColor: white
+      width: 310
+      height: 450
+      borderLeftWidth: thin
+      borderRightWidth: thin
+      borderBottomWidth: thin
+      borderTopWidth: thin
+
+
+           
+    children:
+         - View:
+             style:
+               backgroundColor: lightblue
+               width: 200
+               height: 50
+               right: -50
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+          
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 6
+               fontSize: 25
+               fontWeight: bold
+             index: {Notification}
+
+         - View:
+             style:
+               backgroundColor: pink
+               width: 90
+               height: 20
+               top: 20
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+          
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 70
+               right: 240
+               fontSize: 13
+               fontWeight: normal
+              
+             index: {Date}
+
+         - View:
+             style:
+               backgroundColor: yellow
+               width: 
+               height: 40
+               top: 20
+               borderLeftWidth: thin
+               borderRightWidth: thin
+               borderBottomWidth: thin
+               borderTopWidth: thin
+         
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 70
+               right: 240
+               fontSize: 13
+              
+             index: {Date}
+         
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 99
+               left: 25%
+               fontSize: 13
+               fontWeight: bold
+              
+             index: {Invoker}
+         - Text:
+             style:
+               position: absolute
+               alignSelf: center
+               top: 99
+               fontSize: 13
+               right: 30%
+               fontWeight: bold
+              
+             index: {xtraNotification}
+       
+
+
+
+
+

@@ -1,0 +1,7 @@
+- Text:
+    style:
+      flex: 1
+      alignSelf: center
+      fontSize: 30
+      color: black
+    index: {top_index}
